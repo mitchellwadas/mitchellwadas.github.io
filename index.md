@@ -8,7 +8,7 @@ class: home
 
 <div class="columns">
 <div class="intro">
-I am Master's students in the Department of Mathematics at Northeastern University. My interests include commutative algebra and algebraic geometry. Here is a picture of my dog moose.
+I am a master's student in the Department of Mathematics at Northeastern University. My interests include commutative algebra and algebraic geometry. Here is a picture of my dog Moose.
 </div>
 <div class="me">
   <img src='/assets/moose.jpeg' alt='My dog Moose'>
