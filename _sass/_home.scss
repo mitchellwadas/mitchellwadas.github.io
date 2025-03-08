@@ -12,16 +12,16 @@
     flex-direction: row;
 
     .intro {
-      flex: 1;
-      font-size: 1.1em;
+      text-align: justify;
+      font-size: 1.1*$base-font-size;
     }
 
     .me {
-      margin-left: $spacing-unit*1.5;
+      margin-left: $spacing-unit;
       margin-bottom: $spacing-unit;
 
-      font-size: 0.9em;
       text-align: center;
+      font-size: .9*$base-font-size;
 
       picture, img {
         width: 220px;
@@ -33,23 +33,6 @@
         margin-top: 12px;
         list-style-type: none;
         margin-left: 0;
-      }
-    }
-  }
-
-  @include media-query($on-palm) {
-    .columns {
-      flex-direction: column;
-      align-items: center;
-
-      .me {
-        order: 1;
-        margin-left: 0;
-        margin-top: $spacing-unit/4;
-        margin-bottom: $spacing-unit/4;
-      }
-      .intro {
-        order: 2;
       }
     }
   }

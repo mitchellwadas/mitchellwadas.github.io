@@ -28,13 +28,4 @@
       }
     }
   }
-
-  @include media-query($on-palm) {
-    time {
-      display: none;
-    }
-    .extra-links {
-      display: none;
-    }
-  }
 }

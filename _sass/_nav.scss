@@ -69,29 +69,3 @@ nav {
     margin-right: $spacing-unit/6;
   }
 }
-
-@include media-query($on-palm) {
-  .page-header {
-    margin-bottom: $spacing-unit;
-  }
-  nav {
-    flex-flow: row;
-    justify-content: left;
-    .nav-section {
-      padding: 0;
-    }
-    .external {
-      display: none;
-    }
-    a {
-      margin: 0;
-      &:hover {
-        border-color: transparent;
-      }
-      &[aria-current] {
-        border-color: transparent;
-        color: $brand-color;
-      }
-    }
-  }
-}

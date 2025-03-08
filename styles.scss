@@ -5,26 +5,15 @@
 
 $base-font-family:  -apple-system, Arial;
 $base-font-size:    100%;
-$small-font-size:   80%;
 $base-line-height:  1.6;
 
 $spacing-unit:      32px;
 $content-width:     800px;
 
 $background-color:  #fff;
-// $brand-color:       #417dc1;
 $brand-color:       rgb(188, 25, 45);
 $text-color:        #414141;
 $link-color:        #417dc1;
-
-$on-palm:           600px;
-$on-laptop:         800px;
-
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
 
 @import
   "base",
