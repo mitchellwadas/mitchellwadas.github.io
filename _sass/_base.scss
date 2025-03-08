@@ -1,0 +1,33 @@
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: $background-color;
+  font-family:      $base-font-family;
+  line-height:      $base-line-height;
+  font-size:        $base-font-size;
+  color:            $text-color;
+
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+      opacity: .8;
+      text-decoration: underline;
+  }
+}

@@ -1,0 +1,10 @@
+footer {
+  background-color: $brand-color;
+  font-size: $small-font-size;
+  color: $background-color;
+
+  .site-desc {
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
+}
