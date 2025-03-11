@@ -3,7 +3,7 @@
   <nav class="container">
     <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
     <!--<a class="nav-section" href="{{ '/talks/' | relative_url }}" {% if current[1] == 'talks' %}aria-current="page"{% endif %}>Talks</a>-->
-    <a class="nav-section" href="{{ '/assets/publicCV.pdf' | relative_url }}" {% if current[1] == 'cv' %}aria-current="page"{% endif %}>CV</a>
+    <a class="nav-section" target="_blank" href="{{ '/assets/publicCV.pdf' | relative_url }}" {% if current[1] == 'cv' %}aria-current="page"{% endif %}>CV</a>
     <span class="external">
       <a href="{{ site.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
     </span>
