@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  <head>
+    <meta name="theme-color" content="#417dc1">
+    <link href="{{ 'main.css' | relative_url }}" rel="stylesheet">
+  </head>
   <body>
-    {% include header.html %}
-    <div class="page-content">
-      {{ content }}
+    <header class="header">
+      <nav class="container">
+        <a class="title" href="{{ absolute_url }}/">Mitchell Wadas</a>
+        <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
+      </nav>
+    </header>
+    <div style="flex: 1 1 auto;">
+      <section class="container {{ page.class }}">
+        {{ content }}
+      </section>
     </div>
-    {% include footer.html %}
+    <footer>
+      <div class="container">
+        <div>Last updated April 2025.</div>
+      </div>
+    </footer>
   </body>
 </html>
