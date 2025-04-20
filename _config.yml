@@ -1,1 +1,7 @@
 theme: minima
+title: Mitchell Wadas
+description: Mitchell Wadas
+url: "https://mitchellwadas.github.io"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

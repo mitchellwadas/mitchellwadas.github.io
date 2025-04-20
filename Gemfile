@@ -1,3 +1,5 @@
 source "https://rubygems.org"
 gem "github-pages", "~> 232"
 gem "minima", "~> 2.5"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
