@@ -8,13 +8,12 @@ class: home
 
 <div class="columns">
 <div class="intro">
-  I am a master's student in the math department at Northeastern University. 
-  I will graduate this spring and begin a PhD program at Tufts in the Fall.
+  I'm a first year phd student in the math department at Tufts University. My interests include commutative algebra and algebraic geometry.
 </div>
 <div class="me">
-  <img src='/assets/moose.jpeg' alt='My dog Moose'>
+  <img src='/assets/me.jpg' alt='A picture of me'>
   <ul>
-    <li><a class="email" href="mailto:macaws.lockout.1x@icloud.com">macaws.lockout.1x@icloud.com</a></li>
+    <li><a class="email" href="mailto:mitchell.wadas@tufts.edu">mitchell.wadas@tufts.edu</a></li>
   </ul>
 </div>
 </div>
