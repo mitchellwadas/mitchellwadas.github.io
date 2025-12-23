@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="theme-color" content="#3375B1">
-    <link href="{{ 'main.css' | relative_url }}" rel="stylesheet">
-    {% seo %}
-  </head>
-  <body>
-    <header class="header">
-      <nav class="container">
-        <a class="title" href="{{ absolute_url }}/">Mitchell Wadas</a>
-        <a href="{{ '/assets/cv.pdf' | relative_url }}">CV</a>
-      </nav>
-    </header>
-    <div style="flex: 1 1 auto;">
-      <section class="container {{ page.class }}">
-        {{ content }}
-      </section>
-    </div>
-    <footer>
-      <div class="container">
-        <div>Last updated August 2025.</div>
+   <head>
+      <meta name="theme-color" content="#3375B1">
+      <link href="{{ 'main.css' | relative_url }}" rel="stylesheet">
+      {% seo %}
+   </head>
+   <body>
+      <div class="main">
+      <header class="header">
+         <nav class="container">
+         <a style="font-weight: 500; font-size: 1.6em;" href="{{ absolute_url }}/">Mitchell Wadas</a>
+         <a style="margin-left: auto;"  href="{{ '/assets/cv.pdf' | relative_url }}">CV</a>
+         </nav>
+      </header>
+      <div style="flex: 1 1 auto;">
+         <section class="container {{ page.class }}">
+         {{ content }}
+         </section>
       </div>
-    </footer>
-  </body>
+      <footer>
+         <div class="container">
+         <div>Updated December 2025.</div>
+         </div>
+      </footer>
+      </div>
+   </body>
 </html>

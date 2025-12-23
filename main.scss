@@ -1,13 +1,106 @@
 ---
 ---
 
-$base-font-family:  -apple-system;
-$base-font-size:    100%;
-$content-width:     850px;
+$test: none;
+$blue-color: #3375B1;
+$text-color: #414141;
 
-$blue-color:        #3375B1;
-$text-color:        #414141;
+* {
+   margin: 0;
+   padding: 0;
+   font-family: -apple-system;
+}
 
-@import
-  "base",
-  "home";
+html, body {
+   width:  100%;
+   height: 100%;
+   
+   color: $text-color;
+
+   display: flex;
+   flex-direction: column;
+   background-color: $blue-color
+}
+
+footer {
+   background-color: $blue-color;
+   font-size: 80%;
+   color: #fff;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+h1 {
+   margin-bottom: 0.8em;
+   font-weight: 500;
+   font-size: 2em;
+}
+
+nav {
+   display: flex;
+   align-items: baseline;
+
+   a {
+      font-weight: bold;
+      color: $text-color;
+      text-decoration: none;
+      &:hover {
+         opacity: 0.85;
+         text-decoration: none;
+      }
+   }
+}
+
+.header {
+   border-top: 6px solid $blue-color;
+   margin-bottom: 60px;
+   padding-top: 20px;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 850px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+a {
+   color: $blue-color;
+   text-decoration: none;
+   &:hover {
+      opacity: .85;
+      text-decoration: underline;
+   }
+}
+
+.main {
+   width:  100%;
+   height: 100%;
+   background-color: #fff;
+   display: flex;
+   flex-flow: column;
+   height: 100%;
+}
+
+.home {
+   .columns {
+      display: flex;
+
+      .intro {
+         font-size: 110%;
+         line-height: 1.3em;
+      }
+
+      .me {
+         margin-left: 60px;
+         text-align: center;
+         line-height: 1.7em;
+
+         img {
+            width: 220px;
+            height: 220px;
+            border-radius: 6px;
+         }
+      }
+   }
+}
