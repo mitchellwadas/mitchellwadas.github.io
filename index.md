@@ -8,7 +8,7 @@ class: home
 
 <div class="columns">
 <div class="intro">
-   <p>I'm a first year phd student in the math department at Tufts University. My interests include algebraic geometry and commutative algebra.</p>
+   <p>I'm a second year PhD student in the math department at Tufts University. My interests include algebraic geometry and commutative algebra.</p>
    <br/>
    <p>I organize Tufts's <a href="https://sites.tufts.edu/mondaymathmeeting/">Monday Math Meeting</a>, our graduate student seminar.</p>
 </div>
